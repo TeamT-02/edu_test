@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-5(d6h5_5$a*1_nx5q&!r_kt=3xk1&@j5l3z=257cp)xezx$&&('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'app',
     'pyclick',
     'rest_framework',
+    'jazzmin',
 ]
 
 CLICK_SETTINGS = {
